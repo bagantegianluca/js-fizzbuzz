@@ -2,8 +2,26 @@ body {
     background: #083B4C;
 }
 
-.box {
+.col_cs {
     width: 165px;
     aspect-ratio: 1;
     background: #1389B2;
+    font-weight: bold;
+    width: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.bg_green {
+    background: #0CD6A1;
+}
+
+.bg_yellow {
+    background: #FFD166;
+}
+
+.bg_red {
+    background: #F0466F;
 }
