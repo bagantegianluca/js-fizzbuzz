@@ -1,0 +1,9 @@
+body {
+    background: #083B4C;
+}
+
+.box {
+    width: 165px;
+    aspect-ratio: 1;
+    background: #1389B2;
+}
