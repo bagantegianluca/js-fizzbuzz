@@ -31,19 +31,19 @@ for (let i = 1; i <= 100; i++) {
     // Creo variabile con tag per popolare i tutti box
     if (i % 3 == 0 && i % 5 == 0) {
 
-        box = `<div class="col_cs bg_red">fizzbuzz</div>`;
+        box = `<div class="col-12 box bg_red">fizzbuzz</div>`;
 
     } else if (i % 3 == 0) {
 
-        box = `<div class="col_cs bg_green">fizz</div>`;
+        box = `<div class="col-12 box bg_green">fizz</div>`;
 
     } else if (i % 5 == 0) {
 
-        box = `<div class="col_cs bg_yellow">buzz</div>`;
+        box = `<div class="col-12 box bg_yellow">buzz</div>`;
 
     } else {
 
-        box = `<div class="col_cs">${i}</div>`;
+        box = `<div class="col-12 box">${i}</div>`;
 
     }
 

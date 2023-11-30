@@ -2,12 +2,11 @@ body {
     background: #083B4C;
 }
 
-.col_cs {
-    width: 165px;
+.box {
+    width: calc((100% / 7) - 14px);
     aspect-ratio: 1;
     background: #1389B2;
     font-weight: bold;
-    width: calc(100% / 7);
     display: flex;
     justify-content: center;
     align-items: center;
